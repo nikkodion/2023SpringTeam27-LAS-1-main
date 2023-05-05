@@ -1,0 +1,52 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+  }
+
+  .navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .grid p {
+    font-size: 18px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px 0px;
+  }
+
+  .grid p.category {
+    font-size: 21px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px 0px;
+  }
+
+  h2 {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: darkgray;
+  }

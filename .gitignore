@@ -1,0 +1,5 @@
+env/
+backend/backend/__pycache__/
+backend/DataPrioritization/__pycache__/
+backend/DataPrioritization/migrations/
+backend/.coverage/
